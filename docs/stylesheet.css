@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.logo {
+	background-color: #1e407c;
+	padding: 10px 10px 0px 7px;
+}
+
+p{
+	font-family: 'Avenir', 'sans-serif';
+}
+
+li{
+	font-family: 'Avenir', 'sans-serif';
+}
+
+h1{
+	font-family: 'Avenir Black', sans-serif;
+	color: white;
+	font-size: 48px;
+}
+
+h2{
+	font-family: 'Avenir Black', sans-serif;
+	color: black;
+}
+
+.row {
+	background-color: #1e407c;
+	padding: 15px 10px 50px 7px;
+	font-family: Spacegrotesk, sans-serif;
+	color: white;
+}
+
+input {
+  background-color: #1e407c;
+	fontfamily: 'Avenir Black', sans-serif;
+	font-weight: 500;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.8vw;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 10px 10px 10px 10px;
+}
