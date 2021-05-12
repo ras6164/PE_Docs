@@ -25,6 +25,12 @@ h2{
 	color: black;
 }
 
+
+h3{
+	font-family: 'Avenir Black', sans-serif;
+	color: black;
+}
+
 .row {
 	background-color: #1e407c;
 	padding: 15px 10px 50px 7px;
