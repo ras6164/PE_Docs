@@ -38,6 +38,10 @@ h3{
 	color: white;
 }
 
+.column input {
+	width: 100%;
+}
+
 input {
   background-color: #1e407c;
 	fontfamily: 'Avenir Black', sans-serif;
@@ -52,4 +56,30 @@ input {
   margin: 4px 2px;
   cursor: pointer;
 	border-radius: 10px 10px 10px 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
